@@ -106,6 +106,7 @@ Dalam program Klinik Hewan ini, penerapan abstract class terdapat pada class Hew
 
 Sementara itu, penerapan interface terdapat pada file Perawatan.java yang juga berada pada package model. Interface ini berisi kontrak berupa method beriPerawatan() yang harus diimplementasikan oleh setiap class yang menggunakannya.
 
+### nilai tambah
 
 Kombinasi abstract class dan interface digunakan secara bersamaan pada class Burung dan Ikan. Kedua class ini mewarisi sifat umum dari abstract class Hewan sekaligus mengimplementasikan interface Perawatan. Dengan cara ini, Burung dan Ikan tidak hanya memiliki struktur dasar yang sama seperti atribut pemilik, nama, jenis, umur, dan keluhan dari Hewan, tetapi juga dipaksa untuk memberikan implementasi khusus terhadap aturan perawatan yang ditetapkan di interface Perawatan.
 
